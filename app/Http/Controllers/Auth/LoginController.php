@@ -78,7 +78,7 @@ class LoginController extends Controller
 			return redirect()->to('login/google/setPassword');
 		}
 		
-		return redirect()->to('/home');
+		return redirect()->to('/');
 	}
 	//
 	/**
